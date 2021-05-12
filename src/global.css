@@ -13,21 +13,32 @@ a,p,h1,h2,h3,h4{
 
 /* mobile styles */
 nav{
-    width: 80%;
-    position: absolute;
-    margin: 0 auto;
-    top: 1.5rem;
-    background-color: transparent;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.829);
+}
+
+.landingPageBG{
+    background-image: url(/src/images/b1234.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
 }
 
 /* small tablet styles */
 @media screen and (min-width: 620px) {
+    nav{
+        width: 80%;
+        position: absolute;
+        margin: 0 auto;
+        top: 1.5rem;
+    }
     .navbar-expand-lg .navbar-nav .nav-link{
         padding-right: 1rem !important;
         padding-left: 1rem !important;
     }
-    .myNav a{
-        
+    .myNav a{ 
         display: flex;
         align-items: center;
     }
