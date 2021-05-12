@@ -1,0 +1,46 @@
+html {
+    font-family: 'Roboto Slab', serif;
+}
+
+
+/* reset */
+body,p,a,ul,li{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+
+/* base styles */
+body{
+    overflow-x: hidden; /* keep an eye on it */
+}
+
+
+/* fonts */
+p,h1,h2,h3,h4{
+    color: rgb(31, 31, 31);
+}
+
+
+/* mobile styles */
+
+
+/* small tablet styles */
+@media screen and (min-width: 620px) {
+    
+}
+
+/* large tablets and laptop styles */
+@media screen and (min-width: 960px) {
+    
+}
+
+
+/* desktop styles */
+@media screen and (min-width: 1200px) {
+    
+}
