@@ -2,42 +2,53 @@ html {
     font-family: 'Roboto Slab', serif;
 }
 
-
-/* reset */
-body,p,a,ul,li{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-}
-li{
-    list-style-type: none;
-}
-
-
-/* base styles */
 body{
     overflow-x: hidden; /* keep an eye on it */
 }
 
-
-/* fonts */
-p,h1,h2,h3,h4{
-    color: rgb(31, 31, 31);
+a,p,h1,h2,h3,h4{
+    color: rgb(31, 31, 31) !important;
 }
 
 
 /* mobile styles */
-
+nav{
+    width: 80%;
+    position: absolute;
+    margin: 0 auto;
+    top: 1.5rem;
+    background-color: transparent;
+}
 
 /* small tablet styles */
 @media screen and (min-width: 620px) {
-    
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+    .myNav a{
+        
+        display: flex;
+        align-items: center;
+    }
 }
 
 /* large tablets and laptop styles */
-@media screen and (min-width: 960px) {
-    
+@media screen and (min-width: 992px) {
+    .myNav a {
+        height: 86px;
+    }
+    .contact-us{
+        background: #f3b25e;
+    }
 }
+@media screen and (min-width: 1058px) {
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: 1.5rem !important;
+        padding-left: 1.5rem !important;
+    }
+}
+
 
 
 /* desktop styles */
