@@ -1,5 +1,8 @@
-html {
+.page {
     font-family: 'Roboto Slab', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 body{
@@ -26,6 +29,27 @@ nav{
     width: 100vw;
 }
 
+.hero-text{
+    background: white;
+    height: 100%;
+    width: 100%;
+    padding: 3.5rem 1.2rem;
+    text-align: center;
+}
+.hero-text h1{
+    font-size: 24px;
+    font-weight: 100;
+}
+.bold{
+    font-weight: 300;
+}
+.hero-text p{
+    padding-top: 30px;
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-size: 13px;
+}
+
 /* small tablet styles */
 @media screen and (min-width: 620px) {
     nav{
@@ -41,6 +65,14 @@ nav{
     .myNav a{ 
         display: flex;
         align-items: center;
+    }
+    .hero-text{
+        position: relative;
+        top: -50px;
+        width: 700px;
+    }
+    .hero-text h1{
+        font-size: 50px;
     }
 }
 
