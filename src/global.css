@@ -29,13 +29,15 @@ a,p,h1,h2,h3,h4{
     display: flex;
     justify-content: space-between;
     margin-right: 0;
+    margin-left: 0;
     padding: 0;
+    z-index: 10;
 }
 .nav-wrapper img {
     margin: 20px;
 }
 nav{
-    width: 100%;
+    width: 98%;
     background-color: rgba(255, 255, 255, 0.829);
     position: absolute !important;
     padding: 0 !important;
@@ -43,9 +45,6 @@ nav{
 .navbar-expand-lg .navbar-nav .nav-link{
     padding-right: 1rem;
     padding-left: 1rem;
-}
-.navbar-toggler{
-    margin-right: 20px;
 }
 
 
@@ -67,6 +66,7 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    z-index: 0;
 }
 .carousel-text{
     margin-left: 10px;
@@ -207,10 +207,8 @@ nav{
 
 @media screen and (min-width: 620px) {
     nav{
-        width: 80%;
         position: absolute;
         margin: 0 auto;
-        top: 1.5rem;
     }
     .myNav a{ 
         display: flex;
@@ -218,6 +216,12 @@ nav{
     }
     .hero-text h1{
         font-size: 40px;
+    }
+}
+
+@media (min-width: 768px){
+    .container, .container-md, .container-sm {
+        max-width: 1000px;
     }
 }
 
@@ -229,6 +233,10 @@ nav{
 
 /* large tablets and laptop styles */
 @media screen and (min-width: 992px) {
+    nav{
+        width: 80%;
+        top: 1.5rem;
+    }
     .myNav a {
         height: 86px;
     }
