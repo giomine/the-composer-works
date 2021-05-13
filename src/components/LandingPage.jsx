@@ -46,6 +46,8 @@ function LandingPage(){
                     </div>
                 </div>
             </div>
+
+            <p className="toggle-clients">SEE ALL</p>
         </div>
     )
 }

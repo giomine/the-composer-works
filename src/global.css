@@ -33,7 +33,7 @@ nav{
     background: white;
     height: 100%;
     width: 100%;
-    padding: 3.5rem 1.2rem;
+    padding: 3.5rem 1.2rem 0;
     text-align: center;
 }
 .hero-text h1{
@@ -43,9 +43,9 @@ nav{
 .bold{
     font-weight: 300;
 }
-.hero-text p{
+.hero-text p, .toggle-clients{
     padding-top: 30px;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     font-weight: 300;
     font-size: 13px;
 }
@@ -60,6 +60,17 @@ nav{
 }
 .client-icon{
     margin: 1rem;
+}
+
+.toggle-clients{
+    margin-top: 2rem;
+    color: #f3b25e !important;
+    border-bottom: 1px solid #f3b25e;
+}
+.toggle-clients:hover{
+    color: black !important;
+    border-bottom: 1px solid black !important;
+    cursor: pointer;
 }
 
 /* small tablet styles */
