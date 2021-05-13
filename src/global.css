@@ -20,11 +20,26 @@ a,p,h1,h2,h3,h4{
     display: flex;
     justify-content: center;
 }
-
+.nav-wrapper .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0;
+    padding: 0;
+}
+.nav-wrapper img {
+    margin: 20px;
+}
 nav{
     background-color: rgba(255, 255, 255, 0.829);
     position: absolute !important;
+    padding: 0 !important;
 }
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
 
 .landingPageBG{
     background-image: url(/src/images/b1234.png);
@@ -129,10 +144,10 @@ nav{
         margin: 0 auto;
         top: 1.5rem;
     }
-    .navbar-expand-lg .navbar-nav .nav-link{
-        padding-right: 1rem !important;
-        padding-left: 1rem !important;
-    }
+    /* .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: 1rem;
+        padding-left: 1rem;
+    } */
     .myNav a{ 
         display: flex;
         align-items: center;
