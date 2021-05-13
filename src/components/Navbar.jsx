@@ -7,7 +7,7 @@ function Navbar(){
         <div className="nav-wrapper">
             <nav className="myNav navbar navbar-light navbar-expand-lg">
             <div className="container">
-                    <Link to="/" className="navbar-brand"><img src={process.env.PUBLIC_URL + "./assets/IconsLogo/logo.svg"} alt="logo" /></Link>
+                    <Link to="/" className="navbar-brand"><img src="assets/IconsLogo/logo.svg" alt="logo" /></Link>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ml-auto">
                                 <Link to="/" className="nav-item nav-link active">About</Link>
