@@ -55,6 +55,9 @@ nav{
     font-weight: 300;
     font-size: 13px;
 }
+.clients-section{
+    width: 86%;
+}
 .row{
     margin: 0 -1.5rem;
 }
