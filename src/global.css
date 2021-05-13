@@ -48,19 +48,6 @@ nav{
     margin-right: 20px;
 }
 
-/* .decorator{
-    height: 2px;
-    width: 30px;
-    background-color: black;
-    position: absolute;
-    bottom: 20px;
-    text-align: center;
-}
-.center{
-    display: flex;
-    justify-content: center;
-} */
-
 
 .landingPageBG{
     background-image: url(/src/images/b1234.png);
@@ -102,6 +89,7 @@ nav{
     border: 1px solid #f9f9f9;
     display: block;
     margin: 0.5rem 0;
+    cursor: pointer;
 }
 
 .toggle-clients{
