@@ -13,6 +13,39 @@ function LandingPage(){
                 <p>FOR CLIENTS LIKE THESE</p>
                 <img src={process.env.PUBLIC_URL + "./assets/IconsLogo/Triangle.svg"} alt="logo" />
             </div>
+
+            <div className="grid">
+                <div className="clients">
+                    <div className="client-icon">
+                        <img src="Clients/bbc.jpg" alt="bbc" />
+                    </div>
+                </div>
+                <div className="clients">
+                    <div className="client-icon">
+                        <img src="Clients/tc.jpg" alt="bbc" />
+                    </div>
+                </div>
+                <div className="clients">
+                    <div className="client-icon">
+                        <img src="Clients/nl.jpg" alt="bbc" />
+                    </div>
+                </div>
+                <div className="clients">
+                    <div className="client-icon">
+                        <img src="Clients/red.jpg" alt="bbc" />
+                    </div>
+                </div>
+                <div className="clients">
+                    <div className="client-icon">
+                        <img src="Clients/citv.jpg" alt="bbc" />
+                    </div>
+                </div>
+                <div className="clients">
+                    <div className="client-icon">
+                        <img src="Clients/tinypop.jpg" alt="bbc" />
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
