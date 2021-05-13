@@ -48,6 +48,19 @@ nav{
     margin-right: 20px;
 }
 
+/* .decorator{
+    height: 2px;
+    width: 30px;
+    background-color: black;
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+} */
+
 
 .landingPageBG{
     background-image: url(/src/images/b1234.png);
@@ -170,6 +183,18 @@ nav{
 @media screen and (min-width: 992px) {
     .myNav a {
         height: 86px;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+    }
+    .decorator{
+        height: 2px;
+        width: 30px;
+        /* background-color: black; uncomment to show navbar underlines */
+        position: absolute;
+        bottom: 20px;
+        text-align: center;
     }
     .contact-us{
         background: #f3b25e;

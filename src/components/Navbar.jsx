@@ -10,11 +10,11 @@ function Navbar(){
                     <Link to="/" className="navbar-brand"><img src="assets/IconsLogo/logo.svg" alt="logo" /></Link>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ml-auto">
-                                <Link to="/" className="nav-item nav-link active">About</Link>
-                                <Link to="/" className="nav-item nav-link active">Composers</Link>
-                                <Link to="/" className="nav-item nav-link active">Shows</Link>
-                                <Link to="/" className="nav-item nav-link active">Clients</Link>
-                                <Link to="/" className="nav-item nav-link active">News</Link>
+                                <div className="center"><Link to="/" className="nav-item nav-link active">About</Link><span className="decorator"></span></div>
+                                <div className="center"><Link to="/" className="nav-item nav-link active">Composers</Link><span className="decorator"></span></div>
+                                <div className="center"><Link to="/" className="nav-item nav-link active">Shows</Link><span className="decorator"></span></div>
+                                <div className="center"><Link to="/" className="nav-item nav-link active">Clients</Link><span className="decorator"></span></div>
+                                <div className="center"><Link to="/" className="nav-item nav-link active">News</Link><span className="decorator"></span></div>
                                 <Link to="/" className="nav-item nav-link active contact-us">Contact Us</Link>
                         </ul>
                     </div>
