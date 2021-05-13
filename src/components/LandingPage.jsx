@@ -12,36 +12,29 @@ function LandingPage(){
                 <img src={process.env.PUBLIC_URL + "./assets/IconsLogo/Triangle.svg"} alt="logo" />
             </div>
 
-            <div className="grid">
-                <div className="clients">
-                    <div className="client-icon">
-                        <img src="Clients/bbc.jpg" alt="bbc" />
+            <div className="clients-section">
+                <div className="container container-padding">
+                    <div className="row">
+                        <div className="col-4 col-lg-2">
+                            <img src="Clients/bbc.jpg" alt="bbc" />
+                        </div>
+                        <div className="col-4 col-lg-2">
+                            <img src="Clients/tc.jpg" alt="bbc" />
+                        </div>
+                        <div className="col-4 col-lg-2">
+                            <img src="Clients/nl.jpg" alt="bbc" />
+                        </div>
+                        <div className="col-4 col-lg-2">
+                            <img src="Clients/red.jpg" alt="bbc" />
+                        </div>
+                        <div className="col-4 col-lg-2">
+                            <img src="Clients/citv.jpg" alt="bbc" />
+                        </div>
+                        <div className="col-4 col-lg-2">
+                            <img src="Clients/tinypop.jpg" alt="bbc" />
+                        </div>
                     </div>
-                </div>
-                <div className="clients">
-                    <div className="client-icon">
-                        <img src="Clients/tc.jpg" alt="bbc" />
-                    </div>
-                </div>
-                <div className="clients">
-                    <div className="client-icon">
-                        <img src="Clients/nl.jpg" alt="bbc" />
-                    </div>
-                </div>
-                <div className="clients">
-                    <div className="client-icon">
-                        <img src="Clients/red.jpg" alt="bbc" />
-                    </div>
-                </div>
-                <div className="clients">
-                    <div className="client-icon">
-                        <img src="Clients/citv.jpg" alt="bbc" />
-                    </div>
-                </div>
-                <div className="clients">
-                    <div className="client-icon">
-                        <img src="Clients/tinypop.jpg" alt="bbc" />
-                    </div>
+
                 </div>
             </div>
 

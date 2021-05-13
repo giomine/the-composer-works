@@ -55,17 +55,14 @@ nav{
     font-weight: 300;
     font-size: 13px;
 }
-
-.grid{
-    width: 80%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 192px));
+.row{
+    margin: 0 -1.5rem;
 }
-.clients img{
+.clients-section img{
     width: 100%;
-}
-.client-icon{
-    margin: 1rem;
+    border: 1px solid #f9f9f9;
+    display: block;
+    margin: 0.5rem 0;
 }
 
 .toggle-clients{
