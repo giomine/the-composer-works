@@ -24,13 +24,13 @@ function Footer(){
 
             <div className="footer-socials">
                 <div className="social">
-                    <img src="assets/IconsLogo/Facebook.svg" alt="" />
+                    <a href="http://facebook.com" target="_blank" rel="noopener noreferrer"><img src="assets/IconsLogo/Facebook.svg" alt="facebook" /></a>
                 </div>
                 <div className="social">
-                    <img src="assets/IconsLogo/Linkedin.svg" alt="" />
+                    <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer"><img src="assets/IconsLogo/Linkedin.svg" alt="linkedin" /></a>
                 </div>
                 <div className="social">
-                    <img src="assets/IconsLogo/Twitter.svg" alt="" />
+                    <a href="http://twitter.com" target="_blank" rel="noopener noreferrer"><img src="assets/IconsLogo/Twitter.svg" alt="twitter" /></a>
                 </div>
             </div>
 
