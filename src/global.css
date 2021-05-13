@@ -91,6 +91,11 @@ nav{
     margin: 0.5rem 0;
     cursor: pointer;
 }
+.clients-section img:hover{
+    box-shadow: 0px 10px 20px 5px rgb(219, 219, 219);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
 
 .toggle-clients{
     margin-top: 2rem;
